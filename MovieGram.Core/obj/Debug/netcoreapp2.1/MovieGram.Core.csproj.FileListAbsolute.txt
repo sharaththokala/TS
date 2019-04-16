@@ -1,0 +1,9 @@
+D:\TS\MovieGram.Core\bin\Debug\netcoreapp2.1\MovieGram.Core.deps.json
+D:\TS\MovieGram.Core\bin\Debug\netcoreapp2.1\MovieGram.Core.dll
+D:\TS\MovieGram.Core\bin\Debug\netcoreapp2.1\MovieGram.Core.pdb
+D:\TS\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.csproj.CoreCompileInputs.cache
+D:\TS\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.AssemblyInfoInputs.cache
+D:\TS\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.AssemblyInfo.cs
+D:\TS\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.dll
+D:\TS\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.pdb
+D:\ts\MovieGram.Core\obj\Debug\netcoreapp2.1\MovieGram.Core.csprojAssemblyReference.cache

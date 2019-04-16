@@ -9,7 +9,8 @@
       "MovieGram.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4",
+          "MovieGram.Core": "1.0.0"
         },
         "runtime": {
           "MovieGram.Data.dll": {}
@@ -513,6 +514,11 @@
         "dependencies": {
           "System.Runtime": "4.1.0"
         }
+      },
+      "MovieGram.Core/1.0.0": {
+        "runtime": {
+          "MovieGram.Core.dll": {}
+        }
       }
     }
   },
@@ -906,6 +912,11 @@
       "sha512": "sha512-k1S4Gc6IGwtHGT8188RSeGaX86Qw/wnrgNLshJvsdNUOPP9etMmo8S07c+UlOAx4K/xLuN9ivA1bD0LVurtIxQ==",
       "path": "system.threading.tasks/4.0.11",
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
+    },
+    "MovieGram.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

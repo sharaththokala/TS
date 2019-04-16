@@ -931,6 +931,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "MovieGram.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MovieGram.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieGram.Core.dll": {}
+        }
       }
     }
   },
@@ -3569,13 +3579,19 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "MovieGram.Core/1.0.0": {
+      "type": "project",
+      "path": "../MovieGram.Core/MovieGram.Core.csproj",
+      "msbuildProject": "../MovieGram.Core/MovieGram.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.EntityFrameworkCore.Design >= 2.2.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.4",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "MovieGram.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3607,7 +3623,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\TS\\MovieGram.Core\\MovieGram.Core.csproj": {
+              "projectPath": "D:\\TS\\MovieGram.Core\\MovieGram.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

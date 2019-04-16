@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieGram.Data", "MovieGram.Data\MovieGram.Data.csproj", "{1E19AEDE-0D7D-49D9-BEB3-1B43DB8CD52A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieGram.Data", "MovieGram.Data\MovieGram.Data.csproj", "{1E19AEDE-0D7D-49D9-BEB3-1B43DB8CD52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieGram.Core", "MovieGram.Core\MovieGram.Core.csproj", "{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1E19AEDE-0D7D-49D9-BEB3-1B43DB8CD52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E19AEDE-0D7D-49D9-BEB3-1B43DB8CD52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E19AEDE-0D7D-49D9-BEB3-1B43DB8CD52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

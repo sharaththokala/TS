@@ -4,11 +4,12 @@ using System.Collections.Generic;
 
 namespace MovieGram.Data
 {
-    public class MovieGramContext : DbContext
+    public class MovieGramContext : DbContext, IDatabase
     {
         public MovieGramContext(DbContextOptions options) : base(options)
         {
         }
+
         public DbSet<Movie> Movies { get; set; }
         public DbSet<ShowTime> ShowTimes { get; set; }
         public DbSet<Cinema> Cinemas { get; set; }

@@ -1,11 +1,14 @@
 D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.deps.json
+D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.runtimeconfig.json
+D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.runtimeconfig.dev.json
 D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.dll
+D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.pdb
+D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Core.dll
+D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Core.pdb
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.csprojAssemblyReference.cache
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.csproj.CoreCompileInputs.cache
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.AssemblyInfoInputs.cache
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.AssemblyInfo.cs
-D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.pdb
+D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.csproj.CopyComplete
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.dll
 D:\TS\MovieGram.Data\obj\Debug\netcoreapp2.1\MovieGram.Data.pdb
-D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.runtimeconfig.json
-D:\TS\MovieGram.Data\bin\Debug\netcoreapp2.1\MovieGram.Data.runtimeconfig.dev.json
