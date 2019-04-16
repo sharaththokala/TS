@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TS\\MoneyGram.APi\\MoneyGram.Api.csproj": {}
+    "D:\\TS\\MoneyGram.Tests\\MoneyGram.Tests.csproj": {}
   },
   "projects": {
-    "D:\\TS\\MoneyGram.APi\\MoneyGram.Api.csproj": {
+    "D:\\TS\\MoneyGram.Api\\MoneyGram.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TS\\MoneyGram.APi\\MoneyGram.Api.csproj",
+        "projectUniqueName": "D:\\TS\\MoneyGram.Api\\MoneyGram.Api.csproj",
         "projectName": "MoneyGram.Api",
-        "projectPath": "D:\\TS\\MoneyGram.APi\\MoneyGram.Api.csproj",
+        "projectPath": "D:\\TS\\MoneyGram.Api\\MoneyGram.Api.csproj",
         "packagesPath": "C:\\Users\\sharath\\.nuget\\packages\\",
-        "outputPath": "D:\\TS\\MoneyGram.APi\\obj\\",
+        "outputPath": "D:\\TS\\MoneyGram.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -72,6 +72,88 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\TS\\MoneyGram.Tests\\MoneyGram.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TS\\MoneyGram.Tests\\MoneyGram.Tests.csproj",
+        "projectName": "MoneyGram.Tests",
+        "projectPath": "D:\\TS\\MoneyGram.Tests\\MoneyGram.Tests.csproj",
+        "packagesPath": "C:\\Users\\sharath\\.nuget\\packages\\",
+        "outputPath": "D:\\TS\\MoneyGram.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sharath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\TS\\MoneyGram.Api\\MoneyGram.Api.csproj": {
+                "projectPath": "D:\\TS\\MoneyGram.Api\\MoneyGram.Api.csproj"
+              },
+              "D:\\TS\\MovieGram.Core\\MovieGram.Core.csproj": {
+                "projectPath": "D:\\TS\\MovieGram.Core\\MovieGram.Core.csproj"
+              },
+              "D:\\TS\\MovieGram.Data\\MovieGram.Data.csproj": {
+                "projectPath": "D:\\TS\\MovieGram.Data\\MovieGram.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [

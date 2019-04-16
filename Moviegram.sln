@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieGram.Data", "MovieGram
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieGram.Core", "MovieGram.Core\MovieGram.Core.csproj", "{CD24A5DB-FCE4-4BD7-84D6-62095F2CC97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyGram.Api", "MoneyGram.Api\MoneyGram.Api.csproj", "{524E0837-2C5C-4231-B387-4A4615546F9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyGram.Api", "MoneyGram.Api\MoneyGram.Api.csproj", "{524E0837-2C5C-4231-B387-4A4615546F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyGram.Tests", "MoneyGram.Tests\MoneyGram.Tests.csproj", "{DCF4AD89-E4D8-4428-AA33-6988B5FF49D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{524E0837-2C5C-4231-B387-4A4615546F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524E0837-2C5C-4231-B387-4A4615546F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524E0837-2C5C-4231-B387-4A4615546F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF4AD89-E4D8-4428-AA33-6988B5FF49D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF4AD89-E4D8-4428-AA33-6988B5FF49D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF4AD89-E4D8-4428-AA33-6988B5FF49D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF4AD89-E4D8-4428-AA33-6988B5FF49D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
